@@ -24,6 +24,7 @@
   "dependencies": {
     "@mdx-js/react": "^2.1.3",
     "gatsby": "^4.21.1",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-manifest": "^4.21.0",
     "gatsby-plugin-mdx": "^4.0.0",
     "gatsby-plugin-sitemap": "^5.21.0",
