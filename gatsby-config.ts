@@ -9,6 +9,7 @@ const config: GatsbyConfig = {
   plugins: [
     'gatsby-plugin-postcss',
     'gatsby-plugin-sitemap',
+    'gatsby-plugin-tsconfig-paths',
     'gatsby-plugin-mdx',
     {
       resolve: 'gatsby-source-filesystem',
@@ -21,7 +22,8 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Vazirmatn:wght@100;200;300;400;500;600;700;800;900`],
+        path: '',
+        fonts: [`Inter`, `Vazirmatn`],
         display: 'swap',
       },
     },

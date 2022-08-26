@@ -3,5 +3,20 @@
 @tailwind utilities;
 
 * {
-  font-family: 'Vazirmatn', sans-serif;
+  font-family: 'Inter', 'Vazirmatn', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 100vh;
+}
+
+body::-webkit-scrollbar {
+  width: 0px;
+  height: 20px;
 }
