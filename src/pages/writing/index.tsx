@@ -21,4 +21,9 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head: HeadFC = () => <title>Writing</title>;
+export const Head: HeadFC = () => (
+  <>
+    <title>Writing</title>
+    <meta name="description" content="Persian practical data for programmers" />
+  </>
+);

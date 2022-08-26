@@ -36,4 +36,13 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head: HeadFC = () => <title>Home Page</title>;
+export const Head: HeadFC = () => (
+  <>
+    <title>Home Page</title>
+    <meta name="description" content="Persian practical data for programmers" />
+    <meta property="og:image" name="image" content="cover.png" />
+    <meta content="cover.png" property="twitter:image" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </>
+);
