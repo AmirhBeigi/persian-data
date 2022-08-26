@@ -19,7 +19,8 @@
     "format": "prettier --write *.{js,ts,tsx,json,md,yml,yaml,css,scss,less,graphql,html}",
     "postinstall": "husky install",
     "commit": "cz",
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged",
+    "deploy": "gatsby build && gh-pages -d public"
   },
   "dependencies": {
     "@mdx-js/react": "^2.1.3",
@@ -47,6 +48,7 @@
     "eslint-config-react-app": "^7.0.1",
     "gatsby-plugin-postcss": "^5.21.0",
     "gatsby-plugin-tsconfig-paths": "^1.0.5",
+    "gh-pages": "^4.0.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "postcss": "^8.4.16",
