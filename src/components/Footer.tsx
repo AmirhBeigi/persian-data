@@ -3,7 +3,7 @@ import { GithubIcon } from './icons/Github';
 
 export const Footer = () => {
   return (
-    <a href="" className="mt-28">
+    <a href="https://github.com/AmirhBeigi/persian-data" rel="noreferrer" target="_blank" className="mt-28">
       <GithubIcon />
     </a>
   );

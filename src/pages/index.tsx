@@ -13,7 +13,12 @@ const IndexPage = () => {
         {categories.map(category => (
           <CategoryCard {...category} />
         ))}
-        <div className="p-5 rounded-lg flex items-center justify-center border border-solid border-gray-light border-opacity-20 cursor-pointer">
+        <a
+          href="https://github.com/AmirhBeigi/persian-data/issues/new"
+          target="_blank"
+          rel="noreferrer"
+          className="p-5 rounded-lg flex items-center justify-center border border-solid border-gray-light border-opacity-20 cursor-pointer"
+        >
           <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               fill-rule="evenodd"
@@ -22,7 +27,7 @@ const IndexPage = () => {
               fill="#22282F"
             />
           </svg>
-        </div>
+        </a>
       </div>
       <Footer />
     </main>
