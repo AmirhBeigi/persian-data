@@ -32,7 +32,7 @@ export const ConstantView = (props: ConstantViewProps) => {
           onClick={copyJson}
         >
           {isCopy ? (
-            'Coppied'
+            'Copied'
           ) : (
             <>
               <CopyIcon />
