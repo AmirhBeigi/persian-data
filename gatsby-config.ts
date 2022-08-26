@@ -6,6 +6,7 @@ const config: GatsbyConfig = {
     siteUrl: `https://www.yourdomain.tld`,
   },
   graphqlTypegen: true,
+  pathPrefix: '/persian-data',
   plugins: [
     'gatsby-plugin-postcss',
     'gatsby-plugin-sitemap',

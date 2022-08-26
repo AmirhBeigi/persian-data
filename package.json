@@ -20,7 +20,7 @@
     "postinstall": "husky install",
     "commit": "cz",
     "pre-commit": "lint-staged",
-    "deploy": "gatsby build && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@mdx-js/react": "^2.1.3",
