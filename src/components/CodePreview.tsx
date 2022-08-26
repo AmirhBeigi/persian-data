@@ -7,7 +7,11 @@ interface CodePreviewProps extends React.HTMLAttributes<HTMLDivElement> {
 
 export const CodePreview = (props: CodePreviewProps) => {
   return (
-    <div className={`w-full h-96 rounded-lg bg-gray-light bg-opacity-20 p-10 text-sm font-medium overflow-auto ${props.className ?? ''}`}>
+    <div
+      className={`w-full h-96 rounded-lg bg-gray-light bg-opacity-20 p-10 text-sm font-medium overflow-auto overflow-x-hidden ${
+        props.className ?? ''
+      }`}
+    >
       <ReactJsonSyntaxHighlighter obj={props.code} />
     </div>
   );
